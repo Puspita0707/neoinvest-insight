@@ -25,18 +25,17 @@ from utils.youtube_search import search_youtube
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# --------------------------------------------------
+
 # Page config
-# --------------------------------------------------
+
 st.set_page_config(
     page_title="NeoInvest Insight",
     page_icon="📈",
     layout="centered"
 )
 
-# --------------------------------------------------
-# FINAL POLISHED UI STYLING (EXACT COLORS & HOVER)
-# --------------------------------------------------
+#  UI 
+
 st.markdown(
     """
     <style>
@@ -120,7 +119,7 @@ if "saved_sessions" not in st.session_state:
     st.session_state.saved_sessions = []
 
 # --------------------------------------------------
-# Logic Functions (Untouched)
+# Logic Functions
 # --------------------------------------------------
 @st.cache_resource
 def get_rag_index():
