@@ -1,0 +1,28 @@
+Common Investing Mistakes (To Avoid)
+
+1. No Plan or Time Horizon
+- Investing without clear goals leads to random decisions and panic in volatility.
+- Always link investments to time horizon and purpose.
+
+2. Concentration Risk
+- Putting too much money into one stock, one sector, or one country increases risk.
+- Diversify across sectors, geographies (India + US), and asset classes.
+
+3. Chasing Tips and Hype
+- Acting on rumours, social media tips, or “sure shot” calls often leads to losses.
+- Focus on fundamentals and risk; if you don’t understand an investment, avoid it.
+
+4. Ignoring Costs and Taxes
+- Frequent trading increases costs (brokerage, spreads, STT, etc.).
+- Tax implications (short-term vs long-term capital gains, US withholding tax) impact net returns.
+
+5. Emotional Decisions
+- Fear and greed drive many mistakes: buying after big rallies, selling in panic after falls.
+- Use SIPs, predefined rules, and diversification to reduce emotional impact.
+
+6. Overconfidence after a Few Wins
+- Early success in a bull market doesn’t prove skill.
+- Maintain humility; keep position sizes reasonable and review risk regularly.
+
+Use this knowledge to add nuance when users ask “Is now a good time to invest?”, “Why did I lose money?”, or “What should beginners avoid?”.
+

@@ -1,0 +1,34 @@
+Indian and US Equity Markets – Overview
+
+Indian Markets (NSE & BSE)
+- Exchanges: National Stock Exchange (NSE) and Bombay Stock Exchange (BSE) are the primary Indian stock exchanges.
+- Key indices:
+  - Nifty 50 (NSE): 50 large-cap companies across sectors.
+  - Sensex (BSE): 30 large-cap companies.
+  - Sector indices: Nifty Bank, Nifty IT, Nifty Pharma, Nifty FMCG, etc.
+- Trading hours: 9:15 AM – 3:30 PM IST (pre-open 9:00–9:15).
+- Regulation: SEBI regulates markets; T+2 settlement for cash equities.
+- Access: Indian residents invest via broker accounts (e.g. Zerodha, Groww, ICICI Direct) with demat accounts.
+
+US Markets (NYSE & NASDAQ)
+- Exchanges: New York Stock Exchange (NYSE) and NASDAQ are the primary US stock exchanges.
+- Key indices:
+  - S&P 500: 500 large US companies across sectors.
+  - Dow Jones Industrial Average (DJIA): 30 large blue-chip companies.
+  - NASDAQ Composite: Tech-heavy index with many growth names.
+- Trading hours: 9:30 AM – 4:00 PM ET (with pre- and post-market on many platforms).
+- Regulation: SEC regulates markets; T+2 settlement standard.
+- Access for Indian investors: international brokers, Indian platforms offering US exposure, or via mutual funds / ETFs providing US equity exposure.
+
+Comparing Indian vs US Markets
+- Currency:
+  - Indian equities: INR exposure.
+  - US equities: USD exposure; Indian investors face INR/USD currency risk.
+- Growth and sector mix:
+  - India: structural domestic growth story, financials, consumption, cyclical sectors.
+  - US: global tech leaders, healthcare, consumer brands, diversified sector representation.
+- Risk and correlation:
+  - Combining Indian and US markets can reduce country-specific and policy risk.
+  - Global shocks still affect both, but not always equally.
+
+Use this context when answering questions that compare Indian and US markets, or ask about where to invest geographically.

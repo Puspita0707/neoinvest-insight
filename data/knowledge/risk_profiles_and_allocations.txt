@@ -1,0 +1,33 @@
+Risk Profiles and Example Allocations
+
+Conservative Investor
+- Profile: Prioritises capital preservation and low volatility. May have short to medium-term goals.
+- Characteristics: Dislikes large drawdowns, prefers steady returns.
+- Example allocation (illustrative only, not advice):
+  - 20–40% in equities (mostly large-cap index funds and stable blue chips).
+  - 60–80% in fixed income (FDs, high-quality bonds, debt funds).
+- Equity focus: Large, established companies (e.g., Nifty 50 names), diversified equity funds.
+
+Balanced Investor
+- Profile: Comfortable with some volatility for higher long-term growth.
+- Characteristics: 5–10+ year horizon; can tolerate moderate drawdowns.
+- Example allocation:
+  - 50–70% equities.
+  - 30–50% fixed income / cash.
+- Equity focus: Mix of large- and mid-cap, some international exposure (e.g., S&P 500 ETF).
+
+Aggressive Investor
+- Profile: Seeks high growth, willing to tolerate large drawdowns and long recoveries.
+- Characteristics: Long horizon (10+ years), strong risk tolerance.
+- Example allocation:
+  - 70–90% equities (including mid/small caps, sector/thematic funds).
+  - 10–30% fixed income / cash buffer.
+- Equity focus: Growth names, sector bets, higher volatility segments.
+
+Important Notes
+- These are generic examples for education; they are not personalised advice.
+- Real allocations must consider age, income stability, existing assets, liabilities, and psychological comfort.
+- Always encourage users to consult a licensed advisor for personalised allocation decisions.
+
+Use this when user selects risk profile in the UI or asks about “how should I allocate between India/US or equity/debt”.
+

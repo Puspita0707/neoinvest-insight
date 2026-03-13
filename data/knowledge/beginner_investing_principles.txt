@@ -1,0 +1,31 @@
+Beginner Investing Principles
+
+1. Time Horizon and Goals
+- Clarify your goal: wealth creation, retirement, education, or near-term purchase.
+- Longer horizons (5–10+ years) can handle more equity volatility.
+- Short-term money (0–3 years) should usually not be in equities.
+
+2. Risk and Return
+- Equities historically offer higher returns than fixed income, with higher volatility.
+- There is no guaranteed return; higher returns usually require accepting higher risk.
+- Diversification (across sectors, countries, and asset classes) reduces the impact of one bad investment.
+
+3. Simple Starting Point
+- For beginners, broad-based index funds / ETFs tracking Nifty 50, Sensex, S&P 500, or global indices are often better than single-stock bets.
+- SIPs (Systematic Investment Plans) help average entry prices over time.
+- Stock picking should come later, after understanding business models, valuations, and risk.
+
+4. Basic Research Checklist for a Stock
+- Business: What does the company do? Who are its customers and competitors?
+- Financials: Revenue growth, profitability, debt levels, cash flow.
+- Management: Track record, capital allocation, governance.
+- Valuation: Are you paying a reasonable multiple vs peers and history?
+- Risks: Sector risks, regulation, key dependencies (e.g., one product, one client).
+
+5. Behavioural Discipline
+- Avoid chasing recent winners or panic selling on short-term volatility.
+- Have a written plan: how much to invest, when to rebalance, and conditions to sell.
+- Be wary of tips, hype, and promises of fast doubling; focus on process, not predictions.
+
+Use this knowledge when the user is a complete beginner or asks “how should I start investing”.
+
