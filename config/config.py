@@ -7,6 +7,32 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
+try:
+    import streamlit as st  # type: ignore
+except Exception:  # pragma: no cover - used only in Streamlit runtime
+    st = None  # type: ignore
+
+
+def _get_setting(name: str, default: str = "") -> str:
+    """
+    Read config values in this order:
+    1) Streamlit Cloud secrets (st.secrets)
+    2) Environment variables (os.getenv)
+    """
+    # 1) Streamlit secrets (for deployed app)
+    if st is not None:
+        try:
+            secrets = getattr(st, "secrets", None)
+            if secrets is not None and name in secrets:
+                return str(secrets[name])
+        except Exception:
+            # If secrets are not available for any reason, fall back to env vars
+            pass
+
+    # 2) Standard environment variables (for local dev)
+    return os.getenv(name, default)
+
+
 # Load .env once at import time so Streamlit and local runs both see it
 load_dotenv()
 
@@ -19,25 +45,25 @@ KNOWLEDGE_DIR = DATA_DIR / "knowledge"
 # OpenAI is disabled for this project to avoid paid usage.
 # Even if OPENAI_API_KEY is set in the environment, it is ignored here.
 OPENAI_API_KEY = ""
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "")  # for Gemini
+GROQ_API_KEY = _get_setting("GROQ_API_KEY", "")
+GOOGLE_API_KEY = _get_setting("GOOGLE_API_KEY", "")  # for Gemini
 
 # Default LLM provider: openai | groq | gemini
-LLM_PROVIDER = os.getenv("LLM_PROVIDER", "openai")
+LLM_PROVIDER = _get_setting("LLM_PROVIDER", "openai")
 
 # Embeddings (for RAG) - OpenAI is common; can add others
-EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "text-embedding-3-small")
+EMBEDDING_MODEL = _get_setting("EMBEDDING_MODEL", "text-embedding-3-small")
 
 # Live web search - SerpAPI, Tavily, or Brave
-SERPAPI_API_KEY = os.getenv("SERPAPI_API_KEY", "")
-TAVILY_API_KEY = os.getenv("TAVILY_API_KEY", "")
-BRAVE_API_KEY = os.getenv("BRAVE_API_KEY", "")
+SERPAPI_API_KEY = _get_setting("SERPAPI_API_KEY", "")
+TAVILY_API_KEY = _get_setting("TAVILY_API_KEY", "")
+BRAVE_API_KEY = _get_setting("BRAVE_API_KEY", "")
 
 # YouTube search (optional) - Google API
-YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY", "")
+YOUTUBE_API_KEY = _get_setting("YOUTUBE_API_KEY", "")
 
 # Search provider: serpapi | tavily | brave (brave often has free tier)
-WEB_SEARCH_PROVIDER = os.getenv("WEB_SEARCH_PROVIDER", "tavily")
+WEB_SEARCH_PROVIDER = _get_setting("WEB_SEARCH_PROVIDER", "tavily")
 
 # RAG settings
 CHUNK_SIZE = int(os.getenv("CHUNK_SIZE", "800"))
