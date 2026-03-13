@@ -291,7 +291,7 @@ The application will start locally in your browser.
 You can access the deployed application here:
 
 ```
-https://your-streamlit-app-link.streamlit.app
+https://puspita0707-neoinvest-insight.streamlit.app
 ```
 
 ---
